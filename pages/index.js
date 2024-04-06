@@ -119,42 +119,30 @@ export default function Home() {
               
                 <div className={styles.imageSlide}>
                   <img src="Kyoto.jpg" alt="Kyoto, Japan" />
-                  <div className={styles.imageDescription}>
-                  </div>
                 </div>
                 {/* ... altre immagini */}
                 <div className={styles.imageSlide}>
                   <img src="Fuji2.jpg" alt="Mount Fuji, Japan" />
-                  <div className={styles.imageDescription}>
-                  </div>
                 </div>
                 <div className={styles.imageSlide}>
                   <img src="Fuji.jpg" alt="Mount Fuji, Japan" />
-                  <div className={styles.imageDescription}>
-                  </div>
                 </div>
                 <div className={styles.imageSlide}>
                   <img src="Madrid.jpg" alt="Madrid, Spain" />
-                  <div className={styles.imageDescription}>
-                  </div>
                 </div>
                 <div className={styles.imageSlide}>
                   <img src="maratea.png" alt="Maratea, Italy" />
-                  <div className={styles.imageDescription}>
-                  </div>
                 </div>
                 <div className={styles.imageSlide}>
                   <img src="ny.jpg" alt="New York, US" />
-                  <div className={styles.imageDescription}>
-                  </div>
                 </div>
                 <div className={styles.imageSlide}>
                   <img src="man.jpg" alt="New York, US" />
-                  <div className={styles.imageDescription}>
-                  </div>
                 </div>
                   
+              </div>    
               </div>
+                  
               <span className={`${styles.arrow} ${styles.leftArrow}`} onClick={handlePrevClick}>&#10094;</span>
               <span className={`${styles.arrow} ${styles.rightArrow}`} onClick={handleNextClick}>&#10095;</span>
         </section>  

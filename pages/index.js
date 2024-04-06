@@ -71,9 +71,9 @@ export default function Home() {
         <br />      
         <nav className={styles.navbar}>
           <ul>
-            <li><a href="#about"><strong>Chi siamo</strong></a></li>
+            <li><a href="#about"><strong>Chi Siamo</strong></a></li>
             <li><a href="#projects"><strong>DA INSERIRE</strong></a></li>
-            <li><a href="#certificates"><strong>Le nostre recensioni</strong></a></li>
+            <li><a href="#certificates"><strong>Le Nostre Recensioni</strong></a></li>
             <li><a href="#languagesandskills"><strong>DA INSERIRE</strong></a></li>
             <li><a href="#trips"><strong>Immagini e Fotografie</strong></a></li>
             <li><a href="#contact"><strong>Contatatti</strong></a></li>
@@ -84,7 +84,7 @@ export default function Home() {
       <main className={styles.main}>
 
       <section id="about" className={styles.aboutSection}>
-          <h2>About Me</h2>
+          <h2>Chi Siamo</h2>
           <br />
           <div className={styles.aboutGrid}>
             <div className={styles.aboutColumn}>
@@ -102,12 +102,6 @@ export default function Home() {
               I strongly believe that this new technological era will change the course of our lives, and I want to be part of this change.</p>
             </div>
           <br />
-          </div>
-            <div className={styles.buttonContainer}>
-              <a href="CV.pdf" target="_blank" rel="noopener noreferrer" className={styles.downloadbutton}>Curriculum Vitae</a>
-              <a href="Bachelor's Transcript.pdf" target="_blank" className={styles.downloadbutton} rel="noopener noreferrer">My Bachelor's academic transcript</a>
-              <a href="Master's Transcript.pdf" target="_blank" className={styles.downloadbutton} rel="noopener noreferrer">My Master's academic transcript</a>
-              </div>
         </section>
         
         <hr className={styles.hrzigzag} />
@@ -119,6 +113,49 @@ export default function Home() {
 
         <section id="certificates" className={styles.certificatesSection}>
             <h2>Le nostre recensioni</h2>
+              <div className={styles.galleryContainer}>
+              <div className={styles.imageSlider} ref={sliderRef}>
+              
+                <div className={styles.imageSlide}>
+                  <img src="Kyoto.jpg" alt="Kyoto, Japan" />
+                  <div className={styles.imageDescription}>
+                  </div>
+                </div>
+                {/* ... altre immagini */}
+                <div className={styles.imageSlide}>
+                  <img src="Fuji2.jpg" alt="Mount Fuji, Japan" />
+                  <div className={styles.imageDescription}>
+                  </div>
+                </div>
+                <div className={styles.imageSlide}>
+                  <img src="Fuji.jpg" alt="Mount Fuji, Japan" />
+                  <div className={styles.imageDescription}>
+                  </div>
+                </div>
+                <div className={styles.imageSlide}>
+                  <img src="Madrid.jpg" alt="Madrid, Spain" />
+                  <div className={styles.imageDescription}>
+                  </div>
+                </div>
+                <div className={styles.imageSlide}>
+                  <img src="maratea.png" alt="Maratea, Italy" />
+                  <div className={styles.imageDescription}>
+                  </div>
+                </div>
+                <div className={styles.imageSlide}>
+                  <img src="ny.jpg" alt="New York, US" />
+                  <div className={styles.imageDescription}>
+                  </div>
+                </div>
+                <div className={styles.imageSlide}>
+                  <img src="man.jpg" alt="New York, US" />
+                  <div className={styles.imageDescription}>
+                  </div>
+                </div>
+                  
+              </div>
+              <span className={`${styles.arrow} ${styles.leftArrow}`} onClick={handlePrevClick}>&#10094;</span>
+              <span className={`${styles.arrow} ${styles.rightArrow}`} onClick={handleNextClick}>&#10095;</span>
         </section>  
 
         <section id="languagesandskills" className={styles.languagesandskillsSection}>
@@ -192,7 +229,7 @@ export default function Home() {
         <br />
               
         <section id="contact" className={styles.contactSection}>
-          <h2>Contacts</h2>
+          <h2>Contatti</h2>
           <br />
           <div className={styles.contactBar}>
             <div className={styles.contactIcon}>

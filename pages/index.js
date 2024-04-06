@@ -4,6 +4,7 @@ import Header from "@components/Header";
 import Image from 'next/image';
 import Footer from "@components/Footer";
 import FeedbackForm from "@components/FeedbackForm";
+import JokeBlockWithApiErrorHandling from "@components/JokeBlockWithApiErrorHandling"; // Un nuovo componente con gestione degli errori API
 import JokeBlock from "@components/JokeBlock";
 import styles from '@styles/Home.module.css';
 
@@ -202,7 +203,7 @@ export default function Home() {
             </div>
           </div>
           <FeedbackForm />
-          <JokeBlock />
+          <JokeBlockWithApiErrorHandling />
         </section>
                   
       </main>

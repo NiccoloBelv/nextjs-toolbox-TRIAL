@@ -21,8 +21,6 @@ export default function Home() {
   };
 
   const sliderRef = useRef(null);
-
-  
   
   const handlePrevClick = () => {
     if (sliderRef.current) {
@@ -114,35 +112,6 @@ export default function Home() {
 
         <section id="certificates" className={styles.certificatesSection}>
             <h2>Le nostre recensioni</h2>
-              <div className={styles.galleryContainer}>
-              <div className={styles.imageSlider} ref={sliderRef}>
-              
-                <div className={styles.imageSlide}>
-                  <img src="Kyoto.jpg" alt="Kyoto, Japan" />
-                </div>
-                {/* ... altre immagini */}
-                <div className={styles.imageSlide}>
-                  <img src="Fuji2.jpg" alt="Mount Fuji, Japan" />
-                </div>
-                <div className={styles.imageSlide}>
-                  <img src="Fuji.jpg" alt="Mount Fuji, Japan" />
-                </div>
-                <div className={styles.imageSlide}>
-                  <img src="Madrid.jpg" alt="Madrid, Spain" />
-                </div>
-                <div className={styles.imageSlide}>
-                  <img src="maratea.png" alt="Maratea, Italy" />
-                </div>
-                <div className={styles.imageSlide}>
-                  <img src="ny.jpg" alt="New York, US" />
-                </div>
-                <div className={styles.imageSlide}>
-                  <img src="man.jpg" alt="New York, US" />
-                </div>
-                  
-              </div>    
-              </div>
-                
         </section>  
 
         <section id="languagesandskills" className={styles.languagesandskillsSection}>

@@ -13,11 +13,11 @@ export default function Success() {
 
       <main>
         <h1>Messaggio Ricevuto!</h1>
-        <br />
+        <br /> 
         <p>
           Grazie per aver contattati! Vi risponderemo al più presto!
-          <br /><br/ >
-          Torna alla<Link href="/"><a>home page</a></Link>.
+          <br /> 
+          Torna alla <Link href="/"><a>home page</a></Link>.
         </p>
       </main>
 

@@ -76,7 +76,7 @@ export default function Home() {
             <li><a href="#certificates"><strong>Le Nostre Recensioni</strong></a></li>
             <li><a href="#languagesandskills"><strong>DA INSERIRE</strong></a></li>
             <li><a href="#trips"><strong>Immagini e Fotografie</strong></a></li>
-            <li><a href="#contact"><strong>Contatatti</strong></a></li>
+            <li><a href="#contact"><strong>Contatti</strong></a></li>
           </ul>
         </nav>
       </header>

@@ -142,9 +142,7 @@ export default function Home() {
                   
               </div>    
               </div>
-                  
-              <span className={`${styles.arrow} ${styles.leftArrow}`} onClick={handlePrevClick}>&#10094;</span>
-              <span className={`${styles.arrow} ${styles.rightArrow}`} onClick={handleNextClick}>&#10095;</span>
+                
         </section>  
 
         <section id="languagesandskills" className={styles.languagesandskillsSection}>

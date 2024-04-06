@@ -207,6 +207,8 @@ export default function Home() {
           </div>
           <FeedbackForm />
           <JokeBlock />
+        </section>
+                  
       </main>
       <Footer />
     </div>

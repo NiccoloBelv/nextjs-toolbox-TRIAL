@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Footer from "@components/Footer";
 import FeedbackForm from "@components/FeedbackForm";
 import JokeBlock from "@components/JokeBlock";
+import React, { useState } from 'react';
 import styles from '@styles/Home.module.css';
 
 export default function Home() {
